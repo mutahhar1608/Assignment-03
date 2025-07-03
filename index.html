@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculator Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-container">
+    <h1>🧠 Calculator Game</h1>
+    <div class="question" id="question">Loading...</div>
+
+    <input type="number" id="answer" placeholder="Enter your answer" />
+    <button onclick="checkAnswer()">Submit</button>
+
+    <div id="result"></div>
+    <div id="score">Score: 0</div>
+
+    <button onclick="generateQuestion()">Next Question</button>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
